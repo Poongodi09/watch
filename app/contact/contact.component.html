@@ -1,0 +1,23 @@
+<div class="form">
+    <form [formGroup]= "contactForm" (ngSubmit)="save()"> 
+    
+       Name             <input type="text" name="Name"  formControlName="name"> <br>
+       <span *ngIf="name?.touched && name?.invalid"> *Name is required </span> <br>
+           
+       Email  <input type="text" name="Email"  formControlName="email" >  <br>
+       <span *ngIf="email?.touched && email?.invalid"> *email is required </span> <br>
+       
+       Mobile  <input type="number" name="mobile"  formControlName="mobile">  <br>
+       <span *ngIf="mobile?.touched && mobile?.invalid"> *Mobile number is required </span> <br>
+
+       Delivery Address<br> <textarea class="name" name="delivery"  formControlName="delivery">  <br>
+       <span *ngIf="delivery?.touched && delivery?.invalid"> *Address is required </span> <br>
+   
+       </textarea><br>
+       
+         <button type="submit" [disabled]="!contactForm.valid">Submit</button>
+   
+    </form>
+</div>
+
+    

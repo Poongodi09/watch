@@ -1,0 +1,32 @@
+.galleryy{
+    float: left;
+    text-align: center;
+    border: 1 solid rgb(2, 1, 1);
+    margin: 15px;
+    border-radius: 9px;
+    margin-bottom: 20px;
+
+}
+.desc{
+    height: 80px;
+    font-style: italic;
+    color: black;
+    font-size: 40px;
+  
+    
+}
+
+img{
+    border-radius: 50%;
+    box-shadow: -2px 5px 9px;
+    
+}
+
+    .galleryy i{
+        font-size: 30px;
+    }
+   
+.products{
+    height: 1050px;
+    
+}

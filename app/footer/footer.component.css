@@ -1,0 +1,43 @@
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+a:hover{
+    color: orangered;
+}
+
+.row1{
+    width: 25%;
+    float: left;
+    
+}
+    
+.row2{
+    width: 25%;
+    float: left;
+   
+}
+
+.row3{
+    width: 25%;
+    float: left;
+    
+}
+.row4{
+    width: 20%;
+    float: left;
+}
+.footer{
+    height: 250px;
+    background-color: grey
+}
+h1{
+    color: white;
+}
+
+i{
+    padding: 10px;
+}
+

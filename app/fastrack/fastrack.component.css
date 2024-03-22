@@ -1,0 +1,39 @@
+.gallery{
+    float: left;
+    text-align: center;
+    border: 1 solid rgb(2, 1, 1);
+    margin: 15px;
+    margin-bottom: 20px;
+    box-shadow: 2px 4px 9px;
+    border-radius: 5px;
+}
+
+.desc{
+    height: 80px;
+    font-style: italic;
+    color: black;
+    font-size: 17px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.gallery img{
+border-radius: 9px;
+}
+
+.desc del{
+    color: rgb(104, 104, 104);
+    padding: 15px;
+    margin-top: 12px;
+}
+.desc button{
+    background-color: rgb(8, 194, 8);
+    padding: 9px;
+    border-radius: 10px;
+}
+.desc button:hover{
+    background-color: cadetblue;
+}
+.fastrack{
+    height: 950px;
+}

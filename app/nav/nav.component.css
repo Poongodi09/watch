@@ -1,0 +1,16 @@
+a{
+    text-decoration: none;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+}
+
+div{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+a:hover{
+    color: blue;
+}

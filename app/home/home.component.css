@@ -1,0 +1,56 @@
+.container {
+  position: relative;
+}
+
+
+
+.center h1{
+  position: absolute;
+  top: 30%;
+  width: 60%;
+  font-size: 120px;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  font-weight: bold;
+  left: 4%;
+  text-shadow: 2px 2px 8px #0004ff;
+
+}
+
+
+
+.left{
+float: left;
+font-size: 20px;
+padding: 40px;
+line-height: 25px;
+background: linear-gradient(114.9deg, rgb(34, 34, 34) 8.3%, rgb(0, 40, 60) 41.6%, rgb(0, 143, 213) 93.4%);
+border-radius: 30px;
+margin-top: 75px;
+width: 40%;
+}
+
+.left h1{
+  text-align: center;
+  color: rgb(133, 133, 241);
+  text-shadow: 2px 2px 8px #000000;
+}
+
+.right{
+float: right;
+padding: 70px;
+width: 35%;
+}
+
+.centered img{
+margin-right: 10px;
+border-radius: 50%;
+}
+
+.left p{
+  font-size: 20px;
+  color: rgb(187, 175, 175);
+}
+.home{
+  height: 1200px;
+}
